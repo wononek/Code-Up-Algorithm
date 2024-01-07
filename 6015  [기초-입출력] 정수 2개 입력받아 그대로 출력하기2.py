@@ -1,7 +1,5 @@
-﻿a = input()
-
-a = float(a)
-
+﻿a,b = input().split()
+a = int(a)
+b = int(b)
 print(a)
-print(a)
-print(a)
+print(b)
