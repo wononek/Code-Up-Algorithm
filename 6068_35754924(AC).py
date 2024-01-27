@@ -1,14 +1,7 @@
-﻿n = input()
-
-n = int(n)
-
-if n>=90:
-    print('A')
-else:
-    if n>=70:
-        print('B')
+﻿n = 1
+while n!=0:
+    n = int(input())
+    if n!=0:
+        print(n)
     else:
-        if n>=40:
-            print('C')
-        else:
-            print('D')
+        break
